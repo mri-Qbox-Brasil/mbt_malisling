@@ -308,7 +308,8 @@ if isESX then
         s = tonumber(s)
         local xPlayer = FrameworkObj.GetPlayerFromId(s)
         if not xPlayer then return "male" end
-        return xPlayer.get("sex") == "m" and "male" or "female"
+        --return xPlayer.get("sex") == "m" and "male" or "female"
+        return utils.getPedSex(GetPlayerPed(s))
     end
 
 elseif isQB then

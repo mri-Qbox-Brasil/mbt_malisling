@@ -17,7 +17,7 @@ return {
     ["type"] = "back2"
   },
   ["WEAPON_ASSAULTRIFLE"] = {
-    ["type"] = "back"
+    ["type"] = "front"
   },
   ["WEAPON_SPECIALCARBINE"] = {
     ["type"] = "back"
